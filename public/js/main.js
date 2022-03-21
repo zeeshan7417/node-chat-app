@@ -11,7 +11,7 @@ const chatForm = document.getElementById('chat-form');
 const chatMessages = document.querySelector('.chat-messages');
 const roomName = document.getElementById('room-name');
 const userList = document.getElementById('users');
-let audioObj = new Audio('http://localhost:3000/Whatsapp2.mp3');
+let audioObj = new Audio('https://my-room-chat-b.herokuapp.com/Whatsapp2.mp3');
 
 
 // Get username and room from URL
