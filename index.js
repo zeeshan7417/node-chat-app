@@ -3,6 +3,7 @@ const app = express();
 var http = require("http").Server(app);
 const path = require("path");
 var io = require("socket.io")(http);
+require("dotenv").config();
 app.use(express.static(path.join(__dirname, "public")));
 const commontext = require("./utils/common");
 const {  userJoin,
